@@ -32,36 +32,4 @@ ResuMate is an AI-driven resume analysis and enhancement tool designed to improv
 |----------|---------|----|-------|
 | React.js | Flask   | OpenAI GPT | ReportLab (PDF generation)|
 
----
 
-
-## 🧑‍💻 Folder Structure
-
-ResuMate/
-│
-├── backend/                  # Flask Backend
-│   ├── app.py                # Main backend app
-│   ├── requirements.txt      # Python dependencies
-│   ├── routes/               # API route handlers
-│   │   ├── improve.py
-│   │   ├── summary.py
-│   │   ├── keyword_matcher.py
-│   │   ├── download.py
-│   │   └── upload.py
-│   └── utils/                # Utility modules for processing
-│       ├── bullet_improver.py
-│       ├── summary_generator.py
-│       ├── keyword_matcher.py
-│       └── structured_extractor.py
-│
-├── frontend/                 # React Frontend
-│   ├── public/               # Static files
-│   └── src/                  # React source
-│       ├── App.js
-│       ├── App.css
-│       ├── index.js
-│       └── components/
-│           ├── FileUpload.js
-│           └── ReviewPage.js
-│
-└── README.md                 # Project README
